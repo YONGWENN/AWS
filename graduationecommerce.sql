@@ -34,7 +34,7 @@ CREATE TABLE `account` (
   `Role` char(1) NOT NULL,
   `Status` bit(1) NOT NULL,
   `ImgPath` varchar(200) DEFAULT NULL,
-  `DateReg` date NOT NULL current_timestamp(),
+  `DateReg` datetime NOT NULL current_timestamp,
   `PersonID` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
